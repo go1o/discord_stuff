@@ -1,0 +1,101 @@
+/**
+ * @name golo's theme
+ * @author golo
+ * @version auto updates
+ * @description A theme based on Frosted Glass, created by golo___
+ * @source my ass
+ * @authorLink https://github.com/go1o
+*/
+
+    /* Template Theme */
+@import url("https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css");
+
+    /* Radial Status */
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+
+    /* Horizontal Server List */
+@import url('https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css');
+
+    /* Font */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Condensed&display=swap');
+
+/*
+Image sources:
+(you can replace them if you wish)
+https://images3.alphacoders.com/627/627290.jpg
+https://images6.alphacoders.com/327/327017.jpg
+https://www.wojsko-polskie.pl/18dz/u/filer_public_thumbnails/5d/ee/5deeea9c-e8f1-4baf-8975-48f08eee1fca/1.jpg__1920x900_q85_crop_subsampling-2_upscale.jpg
+https://i.pinimg.com/originals/8f/74/c8/8f74c81d33e9864a34609a655209e2e5.jpg
+https://as1.ftcdn.net/v2/jpg/00/71/34/38/1000_F_71343805_ekhlWe6Wx427N3AmfY7dhIXO8Gtp6CDa.jpg
+https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/United-states_flag_icon_round.svg/1024px-United-states_flag_icon_round.svg.png
+
+*/
+
+:root {
+
+    /* Background */
+  --background-image: url('https://images3.alphacoders.com/627/627290.jpg');
+  --background-image-blur: 0px;
+  --background-image-size: cover;
+  --background-image-position: center center;
+
+    /* People's Profiles */
+  --popout-modal-image: url('https://w0.peakpx.com/wallpaper/19/960/HD-wallpaper-f-16-airplane-jet-jets-lockheed-military-solo.jpg');
+  --popout-modal-blur: 1px;
+  --popout-modal-size: cover;
+  --popout-modal-position: center center;
+  --tint-colour: 0,0,0;
+  --tint-brightness: 0;
+    /* Discord Icon Swap */
+  --home-button-image: url('https://as1.ftcdn.net/v2/jpg/00/71/34/38/1000_F_71343805_ekhlWe6Wx427N3AmfY7dhIXO8Gtp6CDa.jpg');
+  --home-button-size: cover;
+  --home-button-position: center center;
+
+    /* Client Brightness */
+  --serverlist-brightness: 0.8;
+  --left-brightness: 0.8;
+  --middle-brightness: 0.5;
+  --right-brightness: 0.8;
+  --popout-modal-brightness: 0.8;
+
+    /* Hover Gradient */ 
+  --gradient-primary: 42, 15, 3,0.5;
+  --gradient-secondary: 2,0,6,0.5;
+  --gradient-direction: 160deg;
+
+    /* Scroll and links */
+  --scrollbar-colour: rgba(118, 114, 114, 0.481);
+  --link-colour: #1077f4;
+
+    /* Font */
+  --font: 'Roboto Condensed', sans-serif;
+
+    /* Main Client Padding*/
+  --window-padding: 5px;
+  --window-roundness: 15px;
+
+    /* Random Icons/Notices */
+  --show-gift-gif-buttons: none;
+  --update-notice-1: none;
+  --HSL-server-icon-size: 42px;
+  --HSL-server-spacing: 15px;
+
+    /* Radial Status */
+  --rs-small-spacing: 2px;
+  --rs-large-spacing: 10px;
+  --rs-width: 10px;
+  --rs-avatar-shape: 100%;
+  --rs-online-color: #2bda8b;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #1d1d1e;
+  --rs-streaming-color: #6333b7;
+  --rs-invisible-color: #474a4c;
+
+}
+
+    /* Selection Color */
+::selection {
+    background-color: #b94f3782;
+    color: #9de9fc;
+}
